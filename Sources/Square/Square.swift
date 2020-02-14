@@ -1,3 +1,3 @@
-struct Square {
-    var text = "Hello, World!"
+public func square(of value: Int) -> Int {
+    return value * value
 }
