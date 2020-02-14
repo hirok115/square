@@ -1,7 +1,3 @@
-public func square(of value: Int) -> Int {
-    return value * value
-}
-
-public func square(of value: Double) -> Double {
+public func square<T: Numeric>(of value: T) -> T {
     return value * value
 }
